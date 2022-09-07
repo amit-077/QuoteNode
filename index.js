@@ -51,6 +51,7 @@ function previousQuote(data){
   document.getElementById("quote-text").innerHTML = (data[previous_quote].text);
   document.getElementById("quote-author").innerHTML = (data[previous_quote].author);
   document.getElementById("previous").style.display = "none";
+  visit_author(data[previous_quote].author);
 
 });
 };
