@@ -1,4 +1,4 @@
-//CREATING AN ARRAY TO STORE THE NUMBERS//
+//CREATING AN ARRAY TO STORE THE NUMBERS
 let quote_numbers = [];
 let count = 0;
 
@@ -49,7 +49,11 @@ function previousQuote(data){
   document.getElementById("previous-quote").addEventListener("click",function(){
   let previous_quote = quote_numbers[(quote_numbers.length)-2];
   document.getElementById("quote-text").innerHTML = (data[previous_quote].text);
+  if(data[previous_quote].author == null){
+    document.getElementById("quote-author").innerHTML = "Unknown";
+  }else{
   document.getElementById("quote-author").innerHTML = (data[previous_quote].author);
+};
   document.getElementById("previous").style.display = "none";
   visit_author(data[previous_quote].author);
 
