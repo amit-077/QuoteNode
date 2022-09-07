@@ -1,4 +1,4 @@
-//CREATING AN ARRAY TO STORE THE NUMBERS
+//CREATING AN ARRAY TO STORE THE NUMBERS//
 let quote_numbers = [];
 let count = 0;
 
