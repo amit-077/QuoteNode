@@ -1,0 +1,109 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.quote_box{
+  width: 700px;
+  height: auto;
+  padding: 10px 30px 70px 30px;
+  background-color: black;
+  position: absolute;
+  top: 80px;
+  left: 260px;
+  border-radius: 30px;
+  opacity: 0.6;
+  box-shadow: 0 0 5px green;
+}
+
+.quote_box h1{
+  color: #B1E1FF;
+  font-weight: bold;
+}
+
+.quote_box .note-this{
+  color: #F7F5F2;
+  font-weight: 700;
+}
+
+.quote_box h2{
+  color: #FEFBF6;
+  font-weight: 700;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.by{
+  color: #7FBCD2;
+  position: relative;
+  left: 230px;
+  top: 40px;}
+
+#quote-author{
+  color: #89CFFD;
+  position: relative;
+  left: 230px;
+  top: 40px;
+  text-decoration: underline;
+}
+
+.next{
+  position: absolute;
+  top: 500px;
+  left: 890px;
+}
+
+.next-btn{
+  border: none;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  background: transparent;
+  background-color: #0F3460;
+  opacity: 0.6;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.next-btn-text{
+  font-weight: bold;
+  color: #F2EBE9;
+  opacity: 1;
+  /* filter: brightness(5); */
+}
+
+.previous{
+  position: absolute;
+  top: 500px;
+  left: 260px;
+  display: none;
+}
+
+.previous-btn{
+  border: none;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  background: transparent;
+  background-color: #0F3460;
+  opacity: 0.6;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.previous-btn-text{
+  font-weight: bold;
+  color: #F2EBE9;
+  opacity: 1;
+  /* filter: brightness(5); */
+}
